@@ -34,7 +34,7 @@ function App() {
       <h1>CRUD APPLICATION</h1>
       <div className="form">
 
-        <label> Movie name :</label>
+        <label>Nom du film :</label>
         <input 
             type="text" 
             name="movieName" 
@@ -43,7 +43,7 @@ function App() {
             }}
           />
 
-        <label> Review :</label>
+        <label> Avis :</label>
         <input 
             type="text" 
             name="review" 
@@ -52,7 +52,7 @@ function App() {
             }}
          />
 
-        <button onClick={submitReview}>Submit</button>
+        <button onClick={submitReview}>Enregistrer</button>
 
         {movieReviewList.map((value) => {
           return (
